@@ -6,23 +6,28 @@ div:hover {
 
 div:nth-child(3) {
   color: grey;
+  width: 20%;
 }
 
 div:nth-child(4) {
   color: bisque;
+  width: 20%;
 }
 
 div:nth-child(5) {
   color: lightblue;
   font-size: x-large;
+  width: 35%;
 }
 
 div:nth-child(6) {
-  color: brown
+  color: brown;
+  width: 20%;
 }
 
 div:nth-child(7) {
   color: rgb(199, 199, 0);
+  width: 20%;
 }
 
 div:nth-child(odd) {
