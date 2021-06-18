@@ -20,14 +20,46 @@ h1.main-title {
   border: 1px solid black;
 }
 
+li {
+  font-size: 20px;
+}
 
+li em {
+  font-weight: 800;
+}
 
+.linguagens li:nth-child(-n+3) {
+  color: blue;
+}
 
+.bckg-pink {
+  background-color: pink;
+  max-width: 85px;
+}
 
+.aliados-dev li:hover {
+  font-weight: bold;
+}
 
+#stack {
+  color: orange;
+}
 
+#w3 {
+  color: green;
+}
 
+#mozilla {
+  color: black;
+}
 
+#devdocs {
+  color: yellow;
+}
+
+#trybe {
+  color: grenn;
+}
 
 /* 1 - Faça com que todos os itens de Listas Ordenadas tenham uma cor de fundo amarela. Se a numeração do item for PAR, faça a cor de fonte ser verde. Se o número for considerado ÍMPAR, utilize a propriedade text-transform para deixar o texto maiúsculo. (Dica: combinar classes pode ser útil aqui).
 2 - Faça todas as tags Header (h1, h2...) possuírem cor de fonte vermelha e, se alguma delas estiver em itálico, aumente seu tamanho para 40px e acrescente uma borda de 1px preta e sólida.
