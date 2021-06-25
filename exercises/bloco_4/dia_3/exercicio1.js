@@ -62,5 +62,5 @@ for (let linhas = 0; linhas <= meioTriangulo; linhas += 1) {
   asteriscos = '';
   controleDireita += 1;
   controleEsquerda -= 1
-};
+}
 
