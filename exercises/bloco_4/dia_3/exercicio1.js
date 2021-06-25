@@ -23,13 +23,13 @@ for (let index = 1; index <= 5; index += 1) {
 }
 
 // EXERCICIO 3
-let n = 5; // tamanho da base
+let tamanho = 5; // tamanho da base
 let caractere = '*';
 let asteriscos = '';
-let base = n;
+let base = tamanho;
 
-for (let linhas = 0; linhas <= n; linhas += 1) {
-  for (let colunas = 0; colunas <= n; colunas += 1) {
+for (let linhas = 0; linhas < tamanho; linhas += 1) {
+  for (let colunas = 0; colunas <= tamanho; colunas += 1) {
     if (colunas < base) {
       asteriscos += ' ';
     } else {
@@ -42,6 +42,25 @@ for (let linhas = 0; linhas <= n; linhas += 1) {
 }
 
 // EXERCICIO 4
+let tamanho = 5; // tamanho da base
+let caractere = '*';
+let asteriscos = '';
 
+let meioTriangulo = (tamanho + 1) / 2;
+let controleDireita = meioTriangulo;
+let controleEsquerda = meioTriangulo;
 
+for (let linhas = 0; linhas <= meioTriangulo; linhas += 1) {
+  for (let colunas = 0; colunas <= tamanho; colunas += 1) {
+    if (colunas > controleEsquerda && colunas < controleDireita) {
+      asteriscos += caractere;
+    } else {
+      asteriscos += ' ';
+    }
+  }
+  console.log(asteriscos);
+  asteriscos = '';
+  controleDireita += 1;
+  controleEsquerda -= 1
+};
 
