@@ -25,7 +25,7 @@ if (mediaAritmetica > 20) {
 
 // EXERCICIO 5
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
-let maiorValor = numbers[0];
+let maiorValor = 0;
 for (let index = 0; index < 8; index += 1) {
   if (numbers[index] > maiorValor) {
     maiorValor = numbers[index]
@@ -53,7 +53,7 @@ if (impar !== 0) {
 // EXERCICIO 7
 
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
-let menorValor = numbers[0];
+let menorValor = 100; // Maior valor dentro do array
 for (let index = 1; index < numbers.length; index += 1) {
   if (numbers[index] < menorValor) {
     menorValor = numbers[index];
