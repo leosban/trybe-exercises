@@ -42,7 +42,7 @@ for (let linhas = 0; linhas < tamanho; linhas += 1) {
 }
 
 // EXERCICIO 4
-let tamanho = 5; // tamanho da base
+let tamanho = 9; // tamanho da base
 let caractere = '*';
 let asteriscos = '';
 
