@@ -1,4 +1,4 @@
-function futuro() {
+function futuro(params) {
   let texto = document.getElementsByTagName('p')[1];
   texto.innerText = 'Me vejo como um desenvolvedor Java Web Formado e numa empresa boa'
 }
