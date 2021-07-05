@@ -21,3 +21,4 @@ document.querySelector('#elementoOndeVoceEsta').nextElementSibling;
 
 // Agora acesse o terceiroFilho a partir de pai .
 document.querySelector('#pai').lastElementChild.previousElementSibling;
+
