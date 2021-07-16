@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário de Curriculo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Cadastro de Currículo</h1>
+  </header>
+  <form action="">
+    <main>
+      <fieldset>
+        <legend>Dados pessoais</legend>
+        <label for="full-name">Nome Completo:
+          <input type="text" name="full-name" id="full-name" placeholder="Digite seu nome..." required maxlength="40">
+        </label>
+        <BR></BR>
+        <label for="user-email">Email:
+          <input type="text" name="user-email" id="user-email" placeholder="Digite seu email..." required maxlength="50">
+        </label>
+        <BR></BR>
+        <label for="cpf">CPF:
+          <input type="text" name="cpf" id="cpf" placeholder="Digite seu CPF..." required maxlength="11">
+        </label>
+        <BR></BR>
+          <label for="endereco">Endereço:
+            <input type="text" name="endereco" id="endereco" placeholder="Digite seu endereço..." required maxlength="200">
+          </label>
+        <BR></BR>
+        <label for="cidade">Cidade:
+          <input type="text" name="cidade" id="cidade" placeholder="Digite sua cidade..." required maxlength="28">
+        </label>
+        <BR></BR>
+        <label for="estado">Estado:
+          <select name="estado" id="estado">
+          <option disabled selected value>Selecione seu estado</option>
+          </select>
+        </label>
+        <BR></BR>
+        <label for="tipo-endereco">Tipo:
+          <input type="radio" name="tipo-endereco" id="tipo-endereco-casa" value="casa">Casa
+          <input type="radio" name="tipo-endereco" id="tipo-endereco-ap" value="ap">Apartamento
+        </label>        
+      </fieldset>
+      <fieldset>
+        <legend>Dados do seu último emprego</legend>
+        <label for="resumo-curriculo">Resumo do Curriculo
+          <textarea name="resumo-curriculo" id="resumo-curriculo" cols="30" rows="10" maxlength="1000">Digite aqui o resumo do seu curriculo...</textarea>
+        </label>
+        <BR></BR>
+        <label for="cargo">Último cargo:
+          <input type="text" name="cargo" id="cargo" placeholder="Digite seu cargo" required maxlength="40">
+        </label>
+        <BR></BR>
+        <label for="descricao-cargo">Descrição do Cargo:
+          <input type="text" name="descricao-cargo" id="descricao-cargo" placeholder="Descreva suas atividades anteriores" required maxlength="500">
+        </label>
+        <BR></BR>
+        <label for="data-inicio">Data de Início:
+          <input type="text" name="data-inicio" id="data-inicio" required>
+        </label>
+      </fieldset>
+      <BR></BR>
+      <button type="reset" id="limpar">Limpar</button>
+    </main>
+  </form> 
+  <script src="/script.js"></script>
+</body>
+</html>
