@@ -7,8 +7,6 @@ const fatorial = (n) => {
 }
 console.log(fatorial(2));
 
-longestWord("Antônio foi no banheiro e não sabemos o que aconteceu") // retorna 'aconteceu'
-
 const maiorPalavra = palavra => {
   let arrayDePalavras = palavra.split(' ');
   let tamanho = 0;
