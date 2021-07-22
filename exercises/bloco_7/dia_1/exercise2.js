@@ -22,3 +22,4 @@ const maiorPalavra = palavra => {
   return resultado;
 }
 console.log(maiorPalavra("Antônio foi no banheiro e não sabemos o que aconteceu"));
+
