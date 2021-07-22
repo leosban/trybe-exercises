@@ -15,11 +15,9 @@ const maiorPalavra = palavra => {
   let resultado = '';
   for (const iterator of arrayDePalavras) {
     if (iterator.length > tamanho) {
-      tamanho = iterator.length;
       resultado = iterator;
     }
   }
   return resultado;
 }
 console.log(maiorPalavra("Antônio foi no banheiro e não sabemos o que aconteceu"));
-
