@@ -15,6 +15,7 @@ testingScope(false);
 const oddsAndEvens = [13, 3, 4, 10, 7, 2];
 
 const ordenaArray = () => {
+  
   oddsAndEvens[0] = 2;
   oddsAndEvens[1] = 3;
   oddsAndEvens[2] = 4;
@@ -23,7 +24,7 @@ const ordenaArray = () => {
   oddsAndEvens[5] = 13;
 
   return oddsAndEvens;
-}
+};
 
 const arrayOrdenado = ordenaArray();
 
