@@ -171,7 +171,8 @@ console.log(verifyAges(people, 18));
 
 // Array.sort - ALTERA O ARRAY
 const food = ['arroz', 'feijão', 'farofa', 'chocolate', 'doce de leite']; 
-food.sort(); // ORDENAÇÃO EM ORDEM ALFABETICA
+food.sort(); // ORDENAÇÃO EM ORDEM ALFABETICA CRESCENTE
+food.reverse(); // ORDENALÇÃO EM ORDEM ALFABETICA DECRESCENTE
 console.log(food); // IMPRESSAO DO ARRAY EM ORDEM ALFABETICA
 
 // ORDENACAO COM NUMEROS
@@ -192,7 +193,7 @@ const people = [
   { name: 'Bruna', age: 19 },
 ];
 
-people.sort((a, b) => a.age - b.age) // ORDENANDO AS PESSOAS EM ORDEM CRESCENTE
-people.sort((a, b) => b.age - a.age) // ORDENANDO AS PESSOAS EM ORDEM DECRESCENTE
+people.sort((a, b) => a.age - b.age)// ORDENANDO AS PESSOAS EM ORDEM CRESCENTE
+//people.sort((a, b) => b.age < a.age); // ORDENANDO AS PESSOAS EM ORDEM DECRESCENTE
 
 console.log(people);
