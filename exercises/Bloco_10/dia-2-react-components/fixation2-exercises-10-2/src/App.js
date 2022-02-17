@@ -26,8 +26,11 @@ export default class App extends React.Component {
     };
     return (
       <div className="App" >
+
         <h1>Orders recently created</h1>
+
         <Order order={headphone} />
+        
         <Order order={energyDring} />
       </div>
     );
